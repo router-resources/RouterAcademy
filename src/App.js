@@ -1189,7 +1189,3 @@ function App() {
 export default App;
 
 
-// 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
-
-https://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@github.com/router-resources/RouterAcademy.git/
-
