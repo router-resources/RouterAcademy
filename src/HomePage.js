@@ -119,7 +119,7 @@ padding:'15px'
 
     <div class="coursecards">
 
-    {localStorage.getItem('name')? <Link to="/Nitro"><div  >
+    {localStorage.getItem('name')? <Link to="/"><div  >
       <Card style={cardStyles}>
         <Card.Img variant="top" src="https://miro.medium.com/v2/resize:fit:1024/1*RFzUl2xjeCNhSVqJThiwoA.png" />
         <br></br>
@@ -146,7 +146,7 @@ padding:'15px'
       </Card>
     </div>
 }
-    {localStorage.getItem('name')? <Link to="/Nitro"><div  >
+    {localStorage.getItem('name')? <Link to="/"><div  >
       <Card style={cardStyles}>
         <center>
         <Card.Img variant="top" style={{width:'7em'}} src="https://media.licdn.com/dms/image/D4D0BAQH3-tx9k3qlUQ/company-logo_200_200/0/1684148556046/router_protocol_logo?e=2147483647&v=beta&t=i4ALIuBpeCIHqC4RRaom4xSUqdaUSmIUlcsTXeZ6-tA" />
@@ -204,7 +204,7 @@ padding:'15px'
       </Card>
     </div>
 }
-    {localStorage.getItem('name')? <Link to="/Crosstalk"><div  >
+    {localStorage.getItem('name')? <Link to="/"><div  >
       <Card style={cardStyles}>
         <Card.Img variant="top" src={crosstalk} />
         <br></br>
