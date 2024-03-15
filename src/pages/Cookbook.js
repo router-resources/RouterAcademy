@@ -1,12 +1,13 @@
 import React from 'react'
 import { Card, Button, Row, Col } from 'react-bootstrap';
 import './Cookbook.css'
+import cookbook from '../images/nitrocookbook.gif'
 function Cookbook() {
 
   const cardStyles = {
       
     
-    width:'650px',
+    width:'400px',
    
 border: '0.65px solid rgba(255, 255, 255, 0.12)',
 background: 'rgba(255, 255, 255, 0.08)',
@@ -23,12 +24,14 @@ padding:'15px'
 
       <div  >
       <Card style={cardStyles}>
-      <iframe src="https://github.com/router-resources/Voyager-2-Cookbook/" style={{width:"600px", height:"500px"}} frameborder="0"></iframe>
+     
         <br></br>
         <Card.Body>
+        <img src={cookbook} style={{width:"300px"}} />
+        <br></br> <br></br>
           <Card.Title>Router Nitro</Card.Title>
           <br></br>
-          <a href="https://github.com/router-resources/Voyager-2-Cookbook/"> <button class="cbutton">Download</button></a>
+          <a href="https://router-resources.github.io/nitrocourse/"> <button class="cbutton">Start the Journey</button></a>
          
         </Card.Body>
       </Card>

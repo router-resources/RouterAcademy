@@ -1,6 +1,7 @@
 .cbutton{
 
     display: flex;
+    flex-direction: row;
 
 height: 42px;
 
@@ -10,6 +11,7 @@ flex-shrink: 0;
 font-size:12px;
     border-radius: 8px;
 background: linear-gradient(180deg, #8146FF 0%, #6633D2 100%);
-    color:white
+    color:white;
+    flex-wrap: wrap;
 
    }

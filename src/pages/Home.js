@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './Home.module.css'; // Import the CSS module
-import heading from '../images2/heading.png';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 

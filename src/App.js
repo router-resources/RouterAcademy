@@ -23,13 +23,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import { ethers } from 'ethers';
 import './App.css';
 import logo from './images2/logo.png'
-import heading from './images2/heading.png'
+
 import HomePage from "./HomePage";
 import Nitro from './pages/Nitro';
 import Crosstalk from './pages/Crosstalk';
 import Cheatsheet from './pages/Cheatsheet';
 import Cookbook from './pages/Cookbook';
 import Projects from "./pages/Projects";
+import Ambassador from "./pages/Ambassador";
+import Chatbot from "./pages/Chatbot";
 
 import { Routes, Route,Link } from "react-router-dom";
 
@@ -1071,12 +1073,18 @@ function App() {
           <Nav className="me-auto">
 		  <div class="navcontent">
             <Nav.Link href="#courses"><l style={{color:'white'}}>Courses</l></Nav.Link>
-            <Nav.Link href="#Cheatsheet"><l style={{color:'white'}}>Cheatsheet</l></Nav.Link>
+		
+			<Nav.Link href="#Cheatsheet"><l style={{color:'white'}}>Cheatsheet</l></Nav.Link>
+            <Nav.Link href="#Cookbook"><l style={{color:'white'}}>Cookbook</l></Nav.Link>
+            
+			<Nav.Link href="https://docs.routerprotocol.com/"><l style={{color:'white'}}>Docs</l></Nav.Link>
+            
+			<Nav.Link href="#Chatbot"><l style={{color:'white'}}>RouterGPT</l></Nav.Link>
 			<Nav.Link href="#projects"><l style={{color:'white'}}>Projects</l></Nav.Link>
 {/* 			
 			<Nav.Link href="#cookbook"><l style={{color:'white'}}>Cookbook</l></Nav.Link> */}
 			
-			<Nav.Link href="#features"><l style={{color:'white'}}>Ambassador</l></Nav.Link>
+			<Nav.Link href="https://forms.gle/a5WfC98RTFNmhyqY7"><l style={{color:'white'}}>Ambassador</l></Nav.Link>
             <Nav.Link href="#pricing"><l style={{color:'white'}}><button  data-aos="fade-up" data-aos-once="false" data-aos-duration="2000"   class="cbutton" onClick={
         
 
@@ -1127,11 +1135,23 @@ function App() {
 <Route path="/Crosstalk" element={<Crosstalk />} />
 </Routes>
 
+<div id="Cookbook"></div>
+<Routes>
+
+<Route path="/" element={<Cookbook />} />
+</Routes>
+
 
 	<div id="Cheatsheet"></div>
 	<Routes>
 
 	<Route path="/" element={<Cheatsheet />} />
+	</Routes>
+
+	<div id="Chatbot"></div>
+	<Routes>
+
+	<Route path="/" element={<Chatbot/>} />
 	</Routes>
 
 	{/* <div id="cookbook"></div>
@@ -1140,6 +1160,8 @@ function App() {
 	<Route path="/" element={<Cookbook />} />
 	</Routes>
 	 */}
+	 
+	 
 	<div id="projects"></div>
 	<br></br>
 	{localStorage.getItem('projectData')&& <center>
@@ -1148,6 +1170,7 @@ function App() {
 	<Routes>
 	<Route path="/" element={<Projects />} />
 	</Routes>
+	
 	</center>
 }
 	

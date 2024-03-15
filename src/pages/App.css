@@ -303,13 +303,7 @@ background: linear-gradient(180deg, #8146FF 0%, #6633D2 100%);
 .bigger {
   font-size: 1.5em; /* Adjust the size as needed */
 }
-.devrel{
 
-  display:flex;
-  color:rgb(251, 150, 56);
-  justify-content: center;
-  font-size:48px
-}
 
 .login{
   display:flex;

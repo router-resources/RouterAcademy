@@ -14,7 +14,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Navbar from 'react-bootstrap/Navbar';
 
-import heading from './images2/heading.png'
+
 import './App.css';
 
 import Home from './pages/Home'
@@ -93,7 +93,7 @@ padding:'15px'
     <center>
       
       
-      <img  style={{width:'30em'}} class="heading" src="https://www.routerprotocol.com/_nuxt/img/communities.1c5ecf2.png" alt="Heading" /></center>
+      <img   class="heading" src="https://www.routerprotocol.com/_nuxt/img/communities.1c5ecf2.png" alt="Heading" /></center>
    <center>
 
     
@@ -125,6 +125,7 @@ padding:'15px'
         <br></br>
         <Card.Body>
           <Card.Title>Basics of CrossChain</Card.Title>
+          <div style={{backgroundColor:'grey',width:'7em'}}><center>Coming Soon</center></div>
           <br></br>
           
         </Card.Body>
@@ -138,6 +139,7 @@ padding:'15px'
         <br></br>
         <Card.Body>
           <Card.Title>Basics of CrossChain</Card.Title>
+          <div style={{backgroundColor:'grey',width:'7em'}}><center>Coming Soon</center></div>
           <br></br>
           
         </Card.Body>
@@ -152,6 +154,7 @@ padding:'15px'
         <br></br>
         <Card.Body>
           <Card.Title>Intro to Router Protocol</Card.Title>
+          <div style={{backgroundColor:'grey',width:'7em'}}><center>Coming Soon</center></div>
           <br></br>
           
         </Card.Body>
@@ -167,18 +170,21 @@ padding:'15px'
         <br></br>
         <Card.Body>
           <Card.Title>Intro to Router Protocol</Card.Title>
+          <div style={{backgroundColor:'grey',width:'7em'}}><center>Coming Soon</center></div>
           <br></br>
           
         </Card.Body>
       </Card>
     </div>
 }
-    {localStorage.getItem('name')? <Link to="/Nitro"><div  >
+    {localStorage.getItem('name')? <Link to="/"><div  >
       <Card style={cardStyles}>
         <Card.Img variant="top" src={nitro} />
         <br></br>
         <Card.Body>
           <Card.Title>Router Nitro</Card.Title>
+          <div style={{backgroundColor:'grey',width:'7em'}}><center>Coming Soon</center></div>
+          
           <br></br>
           
         </Card.Body>
@@ -204,6 +210,7 @@ padding:'15px'
         <br></br>
         <Card.Body>
           <Card.Title>CrossTalk</Card.Title>
+          <div style={{backgroundColor:'grey',width:'7em'}}><center>Coming Soon</center></div>
           <br></br>
           
         </Card.Body>
@@ -217,6 +224,7 @@ padding:'15px'
         <br></br>
         <Card.Body>
           <Card.Title>CrossTalk</Card.Title>
+          <div style={{backgroundColor:'grey',width:'7em'}}><center>Coming Soon</center></div>
           <br></br>
           
         </Card.Body>
